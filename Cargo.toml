@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions athttps://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-crosstown_bus = "0.5.3"
+crosstown_bus = "=0.5.3"
 futures = "0.3"
 borsh = "0.9.3"
 borsh-derive = "0.9.1"

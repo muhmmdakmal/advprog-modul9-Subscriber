@@ -13,12 +13,12 @@ pub struct UserCreatedHandler;
 impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
     fn handle(&self, message: Box<UserCreatedEventMessage>) -> Result<(), HandleError> {
         let ten_millis = time::Duration::from_millis(1000);
-        let now = time::Instant::now();
+        let _now = time::Instant::now();
 
         thread::sleep(ten_millis);
 
         println!(
-            "In Akmal’s Computer [2306224410]. Message received: {:?}",
+            "In Akmal’s Computer [2306245125]. Message received: {:?}",
             message
         );
         Ok(())
